@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-
+<html>
+    
 <head>
     <title>
         FirstHtmlpage
@@ -7,7 +8,7 @@
 </head>
 
 <body>
-    <a href="bonus.html">BONUS</a>
+<a href="bonus.html">BONUS</a>
     <h1> Ramakotireddy Ragipindi</h1>
     <p> this my first html page in the vs code </p>
     <h6>My favorite vacation spot is araku vally</h6>
@@ -23,6 +24,11 @@
     <ol>
         <li>Trekking</li>
         <li>boat rides</li>
+        <ol>
+            <li>sea rides</li>
+            <li>bananna rides</li>
+            <li>boat surfing</li>
+        </ol>
         <li>mountain climbing</li>
     </ol>
     <h3>Favorite foods</h3>
@@ -48,7 +54,7 @@
     <p>In this below table i would like to explain the sports i like and i would like to recommend to others.In that sport 
         how many hours did i spend in that sport
     </p>
-    <table>
+    <table border="1">
         <tr>
             <th>Name of a sport</th>
             <th>Reason why you recommend it</th>
@@ -79,22 +85,24 @@
         </tr>
     </table>
 
+   
     <hr>
-<h1>
-    Code display using  S number and consult the table.Mine is HTACCESS
-</h1>
-
-<blockquote>What are the correct content-types for XML, HTML and XHTML documents?</blockquote>
-<a href="https://stackoverflow.com/questions/2965587/valid-content-type-for-xml-html-and-xhtml-documents">Quick link to the Stackovetflow</a>
-
-<pre>RewriteEngine On
-    RewriteCond %{HTTP_ACCEPT} application/xhtml\+xml
-    RewriteCond %{HTTP_ACCEPT} !application/xhtml\+xml\s*;\s*q=0
-    RewriteCond %{REQUEST_URI} \.html$
-    RewriteCond %{THE_REQUEST} HTTP/1\.1
-    RewriteRule .* - "[T=application/xhtml+xml; charset=ISO-8859-1]"
-</pre>
-
-<a href="https://css-tricks.com/snippets/htaccess/force-correct-content-type-for-xhtml-documents/">link for the code snippet</a>
-  
+    <h1>
+        Code display using  S number and consult the table.Mine is HTACCESS
+    </h1>
+    
+    <blockquote>What are the correct content-types for XML, HTML and XHTML documents?</blockquote>
+    <a href="https://stackoverflow.com/questions/2965587/valid-content-type-for-xml-html-and-xhtml-documents">Quick link to the Stackovetflow</a>
+    
+    <pre>RewriteEngine On
+        RewriteCond %{HTTP_ACCEPT} application/xhtml\+xml
+        RewriteCond %{HTTP_ACCEPT} !application/xhtml\+xml\s*;\s*q=0
+        RewriteCond %{REQUEST_URI} \.html$
+        RewriteCond %{THE_REQUEST} HTTP/1\.1
+        RewriteRule .* - "[T=application/xhtml+xml; charset=ISO-8859-1]"
+    </pre>
+    
+    <a href="https://css-tricks.com/snippets/htaccess/force-correct-content-type-for-xhtml-documents/">link for the code snippet</a>
+      
 </body>
+</html>
